@@ -3,18 +3,20 @@
   <component name="dataSourceStorageLocal">
     <data-source name="Rails app1: development" uuid="abace0dd-9ffc-4d35-89ae-8f9e0c5e647c">
       <secret-storage>master_key</secret-storage>
-      <first-sync>true</first-sync>
       <user-name>tay</user-name>
+      <schema-pattern>app1_development.pg_catalog app1_development.public</schema-pattern>
+      <default-schemas>app1_development.pg_catalog app1_development.public</default-schemas>
     </data-source>
     <data-source name="Rails app1: test" uuid="19c37fb4-1b1b-475f-9056-25c7c78005a3">
-      <first-sync>true</first-sync>
       <user-name>tay</user-name>
       <user-password>dfdedfcbdfd3dfdedfcbdfd3dfdedfcbdfd3</user-password>
+      <schema-pattern>app1_test.pg_catalog app1_test.public</schema-pattern>
+      <default-schemas>app1_test.pg_catalog app1_test.public</default-schemas>
     </data-source>
     <data-source name="Rails app1: production" uuid="d0680586-5295-48be-940c-af39f1a489d1">
       <first-sync>true</first-sync>
-      <user-name>app1</user-name>
-      <user-password>df96df8fdf97df8adfefdfe4dffcdff1df8ddfebdffadffadf9bdff5dfeedfebdffedfebdfe8dfebdff9dfefdff5dffadfebdff9dff9dffddfe5dff8dfeedf8ddff7df8adf8fdf94</user-password>
+      <user-name>tay</user-name>
+      <user-password>dfdedfcbdfd3dfdedfcbdfd3dfdedfcbdfd3</user-password>
     </data-source>
   </component>
 </project>
